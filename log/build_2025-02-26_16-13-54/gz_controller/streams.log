@@ -1,0 +1,25 @@
+[1.342s] Invoking command in '/home/juanmi/ros2_ws/src/gz_controller': PYTHONPATH=/home/juanmi/ros2_ws/build/gz_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gz_controller build --build-base /home/juanmi/ros2_ws/build/gz_controller/build install --record /home/juanmi/ros2_ws/build/gz_controller/install.log --single-version-externally-managed install_data
+[1.726s] running egg_info
+[1.750s] writing ../../build/gz_controller/gz_controller.egg-info/PKG-INFO
+[1.759s] writing dependency_links to ../../build/gz_controller/gz_controller.egg-info/dependency_links.txt
+[1.760s] writing requirements to ../../build/gz_controller/gz_controller.egg-info/requires.txt
+[1.760s] writing top-level names to ../../build/gz_controller/gz_controller.egg-info/top_level.txt
+[1.814s] reading manifest file '../../build/gz_controller/gz_controller.egg-info/SOURCES.txt'
+[1.816s] writing manifest file '../../build/gz_controller/gz_controller.egg-info/SOURCES.txt'
+[1.817s] running build
+[1.817s] running build_py
+[1.817s] copying gz_controller/__init__.py -> /home/juanmi/ros2_ws/build/gz_controller/build/lib/gz_controller
+[1.817s] copying gz_controller/movement_controler.py -> /home/juanmi/ros2_ws/build/gz_controller/build/lib/gz_controller
+[1.818s] running install
+[1.826s] running install_lib
+[1.852s] copying /home/juanmi/ros2_ws/build/gz_controller/build/lib/gz_controller/movement_controler.py -> /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller
+[1.853s] byte-compiling /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller/movement_controler.py to movement_controler.cpython-310.pyc
+[1.854s] running install_data
+[1.854s] copying resource/gz_controller -> /home/juanmi/ros2_ws/install/gz_controller/share/ament_index/resource_index/packages
+[1.855s] copying package.xml -> /home/juanmi/ros2_ws/install/gz_controller/share/gz_controller
+[1.855s] running install_egg_info
+[1.889s] removing '/home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.889s] Copying ../../build/gz_controller/gz_controller.egg-info to /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller-0.0.0-py3.10.egg-info
+[1.892s] running install_scripts
+[2.104s] writing list of installed files to '/home/juanmi/ros2_ws/build/gz_controller/install.log'
+[2.149s] Invoked command in '/home/juanmi/ros2_ws/src/gz_controller' returned '0': PYTHONPATH=/home/juanmi/ros2_ws/build/gz_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gz_controller build --build-base /home/juanmi/ros2_ws/build/gz_controller/build install --record /home/juanmi/ros2_ws/build/gz_controller/install.log --single-version-externally-managed install_data

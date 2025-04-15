@@ -1,0 +1,22 @@
+[0.421s] Invoking command in '/home/juanmi/ros2_ws/src/build/gz_controller': PYTHONPATH=/home/juanmi/ros2_ws/src/build/gz_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/src/install/gz_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juanmi/ros2_ws/src/build/gz_controller/build --no-deps symlink_data
+[0.599s] running develop
+[0.705s] running egg_info
+[0.713s] creating gz_controller.egg-info
+[0.713s] writing gz_controller.egg-info/PKG-INFO
+[0.713s] writing dependency_links to gz_controller.egg-info/dependency_links.txt
+[0.713s] writing entry points to gz_controller.egg-info/entry_points.txt
+[0.713s] writing requirements to gz_controller.egg-info/requires.txt
+[0.713s] writing top-level names to gz_controller.egg-info/top_level.txt
+[0.713s] writing manifest file 'gz_controller.egg-info/SOURCES.txt'
+[0.729s] reading manifest file 'gz_controller.egg-info/SOURCES.txt'
+[0.730s] writing manifest file 'gz_controller.egg-info/SOURCES.txt'
+[0.738s] running build_ext
+[0.738s] Creating /home/juanmi/ros2_ws/src/install/gz_controller/lib/python3.10/site-packages/gz-controller.egg-link (link to .)
+[0.739s] Installing copter_takeoff script to /home/juanmi/ros2_ws/src/install/gz_controller/lib/gz_controller
+[0.739s] 
+[0.739s] Installed /home/juanmi/ros2_ws/src/build/gz_controller
+[0.739s] running symlink_data
+[0.739s] creating /home/juanmi/ros2_ws/src/install/gz_controller/share/ament_index/resource_index/packages
+[0.739s] symbolically linking /home/juanmi/ros2_ws/src/build/gz_controller/resource/gz_controller -> /home/juanmi/ros2_ws/src/install/gz_controller/share/ament_index/resource_index/packages
+[0.739s] symbolically linking /home/juanmi/ros2_ws/src/build/gz_controller/package.xml -> /home/juanmi/ros2_ws/src/install/gz_controller/share/gz_controller
+[0.762s] Invoked command in '/home/juanmi/ros2_ws/src/build/gz_controller' returned '0': PYTHONPATH=/home/juanmi/ros2_ws/src/build/gz_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/src/install/gz_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juanmi/ros2_ws/src/build/gz_controller/build --no-deps symlink_data

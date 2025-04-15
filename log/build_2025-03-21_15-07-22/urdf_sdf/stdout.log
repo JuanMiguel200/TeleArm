@@ -1,0 +1,25 @@
+running develop
+Removing /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf-sdf.egg-link (link to .)
+running egg_info
+writing ../../build/urdf_sdf/urdf_sdf.egg-info/PKG-INFO
+writing dependency_links to ../../build/urdf_sdf/urdf_sdf.egg-info/dependency_links.txt
+writing requirements to ../../build/urdf_sdf/urdf_sdf.egg-info/requires.txt
+writing top-level names to ../../build/urdf_sdf/urdf_sdf.egg-info/top_level.txt
+reading manifest file '../../build/urdf_sdf/urdf_sdf.egg-info/SOURCES.txt'
+writing manifest file '../../build/urdf_sdf/urdf_sdf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/juanmi/ros2_ws/build/urdf_sdf/build/lib/urdf_sdf
+copying urdf_sdf/__init__.py -> /home/juanmi/ros2_ws/build/urdf_sdf/build/lib/urdf_sdf
+running install
+running install_lib
+creating /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf_sdf
+copying /home/juanmi/ros2_ws/build/urdf_sdf/build/lib/urdf_sdf/__init__.py -> /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf_sdf
+byte-compiling /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf_sdf/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/urdf_sdf -> /home/juanmi/ros2_ws/install/urdf_sdf/share/ament_index/resource_index/packages
+copying package.xml -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf
+running install_egg_info
+Copying ../../build/urdf_sdf/urdf_sdf.egg-info to /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf_sdf-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/juanmi/ros2_ws/build/urdf_sdf/install.log'

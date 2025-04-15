@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/juanmi/ros2_ws/build/urdf_sdf",
+        "/home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages",
+        "/home/juanmi/ros2_ws/build/gz_controller",
+        "/home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages",
+        "/home/juanmi/ardu_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages",
+        "/home/juanmi/ardu_ws/install/ardupilot_ros/lib/python3.10/site-packages",
+        "/home/juanmi/ardu_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages",
+        "/home/juanmi/ardu_ws/install/ardupilot_dds_tests/lib/python3.10/site-packages",
+        "/home/juanmi/ardu_ws/install/ardupilot_sitl/local/lib/python3.10/dist-packages",
+        "/home/juanmi/ardu_ws/install/ardupilot_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/juanmi/ros2_ws/build/urdf_sdf",
+        "/home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages",
+        "/home/juanmi/ros2_ws/build/gz_controller",
+        "/home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages",
+        "/home/juanmi/ardu_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages",
+        "/home/juanmi/ardu_ws/install/ardupilot_ros/lib/python3.10/site-packages",
+        "/home/juanmi/ardu_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages",
+        "/home/juanmi/ardu_ws/install/ardupilot_dds_tests/lib/python3.10/site-packages",
+        "/home/juanmi/ardu_ws/install/ardupilot_sitl/local/lib/python3.10/dist-packages",
+        "/home/juanmi/ardu_ws/install/ardupilot_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

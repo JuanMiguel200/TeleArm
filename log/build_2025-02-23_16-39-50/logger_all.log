@@ -1,0 +1,132 @@
+[0.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc4430544c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc44302bfa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc44302bfa0>>)
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.085s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/juanmi/ros2_ws'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_controller) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_controller) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_controller) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_controller) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_controller) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_controller) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_controller) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_controller) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_controller' with type 'ros.ament_python' and name 'gz_controller'
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.112s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/juanmi/ros2_ws/install
+[0.112s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 292 installed packages in /opt/ros/humble
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'gz_controller' build argument 'cmake_args' from command line to 'None'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'gz_controller' build argument 'cmake_target' from command line to 'None'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'gz_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'gz_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'gz_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'gz_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'gz_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'gz_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'gz_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.133s] DEBUG:colcon.colcon_core.verb:Building package 'gz_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juanmi/ros2_ws/build/gz_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juanmi/ros2_ws/install/gz_controller', 'merge_install': False, 'path': '/home/juanmi/ros2_ws/src/gz_controller', 'symlink_install': False, 'test_result_base': None}
+[0.133s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.134s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juanmi/ros2_ws/src/gz_controller' with build type 'ament_python'
+[0.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_controller', 'ament_prefix_path')
+[0.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanmi/ros2_ws/install/gz_controller/share/gz_controller/hook/ament_prefix_path.ps1'
+[0.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanmi/ros2_ws/install/gz_controller/share/gz_controller/hook/ament_prefix_path.dsv'
+[0.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanmi/ros2_ws/install/gz_controller/share/gz_controller/hook/ament_prefix_path.sh'
+[0.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.137s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juanmi/ros2_ws/src/gz_controller'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with 'Expected ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', '--help-commands'] to pass: /home/juanmi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "/home/juanmi/ros2_ws/src/gz_controller/setup.py", line 5, in <module>
+    setup(
+  File "/home/juanmi/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/juanmi/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 170, in setup
+    ok = dist.parse_command_line()
+  File "/home/juanmi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 469, in parse_command_line
+    if self.handle_display_options(option_order):
+  File "/home/juanmi/.local/lib/python3.10/site-packages/setuptools/dist.py", line 926, in handle_display_options
+    return _Distribution.handle_display_options(self, option_order)
+  File "/home/juanmi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 683, in handle_display_options
+    self.print_commands()
+  File "/home/juanmi/.local/lib/python3.10/site-packages/setuptools/dist.py", line 705, in print_commands
+    cmdclass = ep.load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'setuptools.command.upload_docs'
+'
+[0.453s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.456s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.464s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juanmi/ros2_ws/install/local_setup.ps1'
+[0.465s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juanmi/ros2_ws/install/_local_setup_util_ps1.py'
+[0.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juanmi/ros2_ws/install/setup.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juanmi/ros2_ws/install/local_setup.sh'
+[0.467s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juanmi/ros2_ws/install/_local_setup_util_sh.py'
+[0.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juanmi/ros2_ws/install/setup.sh'
+[0.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juanmi/ros2_ws/install/local_setup.bash'
+[0.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juanmi/ros2_ws/install/setup.bash'
+[0.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juanmi/ros2_ws/install/local_setup.zsh'
+[0.468s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juanmi/ros2_ws/install/setup.zsh'

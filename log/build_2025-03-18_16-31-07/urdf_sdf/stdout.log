@@ -1,0 +1,18 @@
+running develop
+running egg_info
+creating urdf_sdf.egg-info
+writing urdf_sdf.egg-info/PKG-INFO
+writing dependency_links to urdf_sdf.egg-info/dependency_links.txt
+writing requirements to urdf_sdf.egg-info/requires.txt
+writing top-level names to urdf_sdf.egg-info/top_level.txt
+writing manifest file 'urdf_sdf.egg-info/SOURCES.txt'
+reading manifest file 'urdf_sdf.egg-info/SOURCES.txt'
+writing manifest file 'urdf_sdf.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf-sdf.egg-link (link to .)
+
+Installed /home/juanmi/ros2_ws/build/urdf_sdf
+running symlink_data
+creating /home/juanmi/ros2_ws/install/urdf_sdf/share/ament_index/resource_index/packages
+symbolically linking /home/juanmi/ros2_ws/build/urdf_sdf/resource/urdf_sdf -> /home/juanmi/ros2_ws/install/urdf_sdf/share/ament_index/resource_index/packages
+symbolically linking /home/juanmi/ros2_ws/build/urdf_sdf/package.xml -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf

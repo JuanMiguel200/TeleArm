@@ -1,0 +1,5 @@
+[0.013s] Invoking command in '/home/juanmi/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanmi/ros2_ws/install/gz_controller:/home/juanmi/ardu_ws/install/ardupilot_ros:/home/juanmi/ardu_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/juanmi/ros2_ws/build/articubot_one -- -j12 -l12
+[0.037s] [0mCMake Error: The source directory "/home/juanmi/ros2_ws/src/articubot_one/articubot_one" does not exist.
+[0.037s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.038s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.144s] Invoked command in '/home/juanmi/ros2_ws/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanmi/ros2_ws/install/gz_controller:/home/juanmi/ardu_ws/install/ardupilot_ros:/home/juanmi/ardu_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/juanmi/ros2_ws/build/articubot_one -- -j12 -l12

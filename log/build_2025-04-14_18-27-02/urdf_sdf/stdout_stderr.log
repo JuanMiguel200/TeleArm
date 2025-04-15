@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing urdf_sdf.egg-info/PKG-INFO
+writing dependency_links to urdf_sdf.egg-info/dependency_links.txt
+writing requirements to urdf_sdf.egg-info/requires.txt
+writing top-level names to urdf_sdf.egg-info/top_level.txt
+reading manifest file 'urdf_sdf.egg-info/SOURCES.txt'
+writing manifest file 'urdf_sdf.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf-sdf.egg-link (link to .)
+
+Installed /home/juanmi/ros2_ws/build/urdf_sdf
+running symlink_data

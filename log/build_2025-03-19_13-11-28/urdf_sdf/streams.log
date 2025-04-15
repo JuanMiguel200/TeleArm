@@ -1,0 +1,15 @@
+[0.536s] Invoking command in '/home/juanmi/ros2_ws/build/urdf_sdf': PYTHONPATH=/home/juanmi/ros2_ws/build/urdf_sdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juanmi/ros2_ws/build/urdf_sdf/build --no-deps symlink_data
+[0.710s] running develop
+[0.817s] running egg_info
+[0.825s] writing urdf_sdf.egg-info/PKG-INFO
+[0.825s] writing dependency_links to urdf_sdf.egg-info/dependency_links.txt
+[0.825s] writing requirements to urdf_sdf.egg-info/requires.txt
+[0.825s] writing top-level names to urdf_sdf.egg-info/top_level.txt
+[0.841s] reading manifest file 'urdf_sdf.egg-info/SOURCES.txt'
+[0.842s] writing manifest file 'urdf_sdf.egg-info/SOURCES.txt'
+[0.850s] running build_ext
+[0.850s] Creating /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf-sdf.egg-link (link to .)
+[0.850s] 
+[0.850s] Installed /home/juanmi/ros2_ws/build/urdf_sdf
+[0.850s] running symlink_data
+[0.880s] Invoked command in '/home/juanmi/ros2_ws/build/urdf_sdf' returned '0': PYTHONPATH=/home/juanmi/ros2_ws/build/urdf_sdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juanmi/ros2_ws/build/urdf_sdf/build --no-deps symlink_data

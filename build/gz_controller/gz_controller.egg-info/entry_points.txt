@@ -1,0 +1,2 @@
+[console_scripts]
+copter_takeoff = ardupilot_dds_tests.copter_takeoff:main
