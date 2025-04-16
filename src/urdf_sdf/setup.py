@@ -12,7 +12,8 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', glob('launch/*.launch.py')),  # Asegura que los archivos launch se instalen
-        ('share/' + package_name + '/urdf', glob('urdf/*.urdf')),  # Incluye los URDF
+        ('share/' + package_name + '/urdf', glob('urdf/*.urdf')),
+        ('share/' + package_name + '/rviz', glob('rviz/*.rviz')),# Incluye los URDF
     ],
     install_requires=['setuptools'],
     zip_safe=True,

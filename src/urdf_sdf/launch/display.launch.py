@@ -13,8 +13,8 @@ def generate_launch_description():
     urdf_path = os.path.join(get_package_share_directory(pkg_name), 'urdf', urdf_file)
 
     # Argumento para RViz con configuración por defecto
-    rviz_config = os.path.join(get_package_share_directory(pkg_name), 'rviz', 'config.rviz')
-
+    rviz_config = os.path.join(get_package_share_directory(pkg_name), 'rviz', 'conf.rviz')
+    
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
