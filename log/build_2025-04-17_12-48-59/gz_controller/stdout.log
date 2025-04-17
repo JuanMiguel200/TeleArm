@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing gz_controller.egg-info/PKG-INFO
+writing dependency_links to gz_controller.egg-info/dependency_links.txt
+writing entry points to gz_controller.egg-info/entry_points.txt
+writing requirements to gz_controller.egg-info/requires.txt
+writing top-level names to gz_controller.egg-info/top_level.txt
+reading manifest file 'gz_controller.egg-info/SOURCES.txt'
+writing manifest file 'gz_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz-controller.egg-link (link to .)
+Installing copter_takeoff script to /home/juanmi/ros2_ws/install/gz_controller/lib/gz_controller
+
+Installed /home/juanmi/ros2_ws/build/gz_controller
+running symlink_data
+symbolically linking /home/juanmi/ros2_ws/build/gz_controller/resource/gz_controller -> /home/juanmi/ros2_ws/install/gz_controller/share/ament_index/resource_index/packages
+symbolically linking /home/juanmi/ros2_ws/build/gz_controller/package.xml -> /home/juanmi/ros2_ws/install/gz_controller/share/gz_controller

@@ -1,0 +1,29 @@
+running develop
+Removing /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz-controller.egg-link (link to .)
+running egg_info
+writing ../../build/gz_controller/gz_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/gz_controller/gz_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/gz_controller/gz_controller.egg-info/entry_points.txt
+writing requirements to ../../build/gz_controller/gz_controller.egg-info/requires.txt
+writing top-level names to ../../build/gz_controller/gz_controller.egg-info/top_level.txt
+reading manifest file '../../build/gz_controller/gz_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/gz_controller/gz_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying gz_controller/__init__.py -> /home/juanmi/ros2_ws/build/gz_controller/build/lib/gz_controller
+copying gz_controller/movement_controler.py -> /home/juanmi/ros2_ws/build/gz_controller/build/lib/gz_controller
+running install
+running install_lib
+creating /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller
+copying /home/juanmi/ros2_ws/build/gz_controller/build/lib/gz_controller/__init__.py -> /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller
+copying /home/juanmi/ros2_ws/build/gz_controller/build/lib/gz_controller/movement_controler.py -> /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller
+byte-compiling /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller/movement_controler.py to movement_controler.cpython-310.pyc
+running install_data
+copying resource/gz_controller -> /home/juanmi/ros2_ws/install/gz_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/juanmi/ros2_ws/install/gz_controller/share/gz_controller
+running install_egg_info
+Copying ../../build/gz_controller/gz_controller.egg-info to /home/juanmi/ros2_ws/install/gz_controller/lib/python3.10/site-packages/gz_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing copter_takeoff script to /home/juanmi/ros2_ws/install/gz_controller/lib/gz_controller
+writing list of installed files to '/home/juanmi/ros2_ws/build/gz_controller/install.log'

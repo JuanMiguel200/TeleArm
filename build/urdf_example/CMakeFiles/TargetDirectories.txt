@@ -1,0 +1,9 @@
+/home/juanmi/ros2_ws/build/urdf_example/CMakeFiles/uninstall.dir
+/home/juanmi/ros2_ws/build/urdf_example/CMakeFiles/urdf_example_uninstall.dir
+/home/juanmi/ros2_ws/build/urdf_example/CMakeFiles/test.dir
+/home/juanmi/ros2_ws/build/urdf_example/CMakeFiles/edit_cache.dir
+/home/juanmi/ros2_ws/build/urdf_example/CMakeFiles/rebuild_cache.dir
+/home/juanmi/ros2_ws/build/urdf_example/CMakeFiles/list_install_components.dir
+/home/juanmi/ros2_ws/build/urdf_example/CMakeFiles/install.dir
+/home/juanmi/ros2_ws/build/urdf_example/CMakeFiles/install/local.dir
+/home/juanmi/ros2_ws/build/urdf_example/CMakeFiles/install/strip.dir

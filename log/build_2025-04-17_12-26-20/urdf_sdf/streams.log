@@ -1,0 +1,35 @@
+[0.562s] Invoking command in '/home/juanmi/ros2_ws/build/urdf_sdf': PYTHONPATH=/home/juanmi/ros2_ws/build/urdf_sdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/juanmi/ros2_ws/build/urdf_sdf/build
+[0.741s] running develop
+[0.854s] Removing /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf-sdf.egg-link (link to .)
+[0.883s] Invoked command in '/home/juanmi/ros2_ws/build/urdf_sdf' returned '0': PYTHONPATH=/home/juanmi/ros2_ws/build/urdf_sdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/juanmi/ros2_ws/build/urdf_sdf/build
+[0.884s] Invoking command in '/home/juanmi/ros2_ws/src/urdf_sdf': PYTHONPATH=/home/juanmi/ros2_ws/build/urdf_sdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_sdf build --build-base /home/juanmi/ros2_ws/build/urdf_sdf/build install --record /home/juanmi/ros2_ws/build/urdf_sdf/install.log --single-version-externally-managed install_data --force
+[1.034s] running egg_info
+[1.041s] writing ../../build/urdf_sdf/urdf_sdf.egg-info/PKG-INFO
+[1.041s] writing dependency_links to ../../build/urdf_sdf/urdf_sdf.egg-info/dependency_links.txt
+[1.042s] writing requirements to ../../build/urdf_sdf/urdf_sdf.egg-info/requires.txt
+[1.042s] writing top-level names to ../../build/urdf_sdf/urdf_sdf.egg-info/top_level.txt
+[1.058s] reading manifest file '../../build/urdf_sdf/urdf_sdf.egg-info/SOURCES.txt'
+[1.058s] writing manifest file '../../build/urdf_sdf/urdf_sdf.egg-info/SOURCES.txt'
+[1.058s] running build
+[1.059s] running build_py
+[1.059s] copying urdf_sdf/__init__.py -> /home/juanmi/ros2_ws/build/urdf_sdf/build/lib/urdf_sdf
+[1.059s] running install
+[1.061s] running install_lib
+[1.069s] creating /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf_sdf
+[1.069s] copying /home/juanmi/ros2_ws/build/urdf_sdf/build/lib/urdf_sdf/__init__.py -> /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf_sdf
+[1.070s] byte-compiling /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf_sdf/__init__.py to __init__.cpython-310.pyc
+[1.070s] running install_data
+[1.070s] copying resource/urdf_sdf -> /home/juanmi/ros2_ws/install/urdf_sdf/share/ament_index/resource_index/packages
+[1.070s] copying package.xml -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf
+[1.070s] copying launch/display.launch.py -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf/launch
+[1.070s] copying launch/rsp.launch.py -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf/launch
+[1.070s] copying urdf/test.urdf -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf/urdf
+[1.070s] copying urdf/example_gazebo.xacro -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf/urdf
+[1.070s] copying urdf/example_include.xacro -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf/urdf
+[1.070s] copying urdf/example_robot.urdf.xacro -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf/urdf
+[1.071s] copying rviz/conf.rviz -> /home/juanmi/ros2_ws/install/urdf_sdf/share/urdf_sdf/rviz
+[1.071s] running install_egg_info
+[1.080s] Copying ../../build/urdf_sdf/urdf_sdf.egg-info to /home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages/urdf_sdf-0.0.0-py3.10.egg-info
+[1.080s] running install_scripts
+[1.149s] writing list of installed files to '/home/juanmi/ros2_ws/build/urdf_sdf/install.log'
+[1.169s] Invoked command in '/home/juanmi/ros2_ws/src/urdf_sdf' returned '0': PYTHONPATH=/home/juanmi/ros2_ws/build/urdf_sdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juanmi/ros2_ws/install/urdf_sdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf_sdf build --build-base /home/juanmi/ros2_ws/build/urdf_sdf/build install --record /home/juanmi/ros2_ws/build/urdf_sdf/install.log --single-version-externally-managed install_data --force

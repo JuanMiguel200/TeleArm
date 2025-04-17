@@ -1,0 +1,1 @@
+/home/juanmi/ros2_ws/src/urdf_example/launch/rsp_sim.launch.py

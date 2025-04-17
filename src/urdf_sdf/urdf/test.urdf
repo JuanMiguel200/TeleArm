@@ -1,47 +1,24 @@
 <?xml version="1.0"?>
+<robot name="multipleshapes">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.6" radius="0.2"/>
+      </geometry>
+    </visual>
+  </link>
 
-<robot name="tubo">
-    <material name="blue">
-        <color rgb="0.0 0.0 1.0 "/>
-        
-    </material>
+  <link name="right_leg">
+    <visual>
+      <geometry>
+        <box size="0.6 0.1 0.2"/>
+      </geometry>
+    </visual>
+  </link>
 
-    <link name="base_link">
-        <visual name="">
-            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-            <geometry>
-                <cylinder radius="0.2" length="0.6"/>
-            </geometry>
-            <material name="blue"/>
-        </visual>
-        <collision>
-            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-            <geometry>
-                <cylinder radius="0.2" length="0.6"/>
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="10"/>
-            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-            <inertia ixx="1e-3" ixy="0.0" ixz="0.0"
-                     iyy="1e-3" iyz="0.0"
-                     izz="1e-3"/>
-        </inertial>
-    </link>
-    <link name="right_leg">
-     <visual>
-        <geometry>
-            <box size="0.6 0.1 0.2"/>
-        </geometry>
-        <origin rpy="0 1.57075 0" xyz="0 0 -0.3"/>
-        <material name="white"/>
-     </visual>
-    </link>
-    <joint name="base_to_right_leg" type="continuous">
-        <axis rpy="0 0 0" xyz="0.0 1.0 0.0"/>
-        <parent link="base_link"/>
-        <child link="right_leg"/>
-        <origin xyz="0 -0.22 0.25"/>
-        
-    </joint>
+  <joint name="base_to_right_leg" type="fixed">
+    <parent link="base_link"/>
+    <child link="right_leg"/>
+  </joint>
+
 </robot>

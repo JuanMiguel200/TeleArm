@@ -8,7 +8,12 @@ setup.py
 ../../build/urdf_sdf/urdf_sdf.egg-info/top_level.txt
 ../../build/urdf_sdf/urdf_sdf.egg-info/zip-safe
 launch/display.launch.py
+launch/rsp.launch.py
 resource/urdf_sdf
+rviz/conf.rviz
+urdf/example_gazebo.xacro
+urdf/example_include.xacro
+urdf/example_robot.urdf.xacro
 urdf/test.urdf
 urdf_sdf/__init__.py
 urdf_sdf.egg-info/PKG-INFO

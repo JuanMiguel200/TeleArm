@@ -13,6 +13,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', glob('launch/*.launch.py')),  # Asegura que los archivos launch se instalen
         ('share/' + package_name + '/urdf', glob('urdf/*.urdf')),
+        ('share/' + package_name + '/urdf', glob('urdf/*.xacro')),
         ('share/' + package_name + '/rviz', glob('rviz/*.rviz')),# Incluye los URDF
     ],
     install_requires=['setuptools'],
